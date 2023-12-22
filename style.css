@@ -1,12 +1,40 @@
+
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
-    background-color: bisque;
+    font-family: '8BIT WONDER', sans-serif;
+    background: linear-gradient(180deg, #886b46 0%, #ffe4c4 100%); 
+    overflow: scroll;
 }
 
-h1,h2,h3 {
+.header {
+
     text-align: center;
-    font-size: 60px;
+    height:15svh;
+    color: gold;
+    text-align: center;
 }
+.container {
+    overflow: scroll;
+    height:70svh;
+}
+
+h1 {
+    font-size: 4svh;
+}
+
+footer {
+    height: 15svh;
+    padding-top: 60px;
+}
+
+.foot {
+    font-size: 1.25vw;  
+}
+
+#homepageul {
+    list-style-type:square;
+    margin-left: 28%;
+}
+
 
 p {
     text-align: center;
@@ -15,23 +43,37 @@ p {
     color: brown;
 }
 
-li {
-    font-size: 24px;
+#recipe-1, #recipe-2, #recipe-3{
+    margin-bottom: 125px;
+    font-size: 1.9vw;
 }
 
-ul {
-    margin-left: 35%;
+
+.container ul,ol {
+    color: #7e4141;
 }
 
-#curry {
+.container #curry {
     margin-left: 25%;
 }
+
+h2,h3 {
+    text-align: center;
+    color: gold;
+    font-size: 2svh;
+
+}
+
 
 #miso {
     margin-left: 35%;
 }
 img {
-    margin-left: 35%;
-    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:contain;
+    max-width: 33%;
     height: auto;
+    border-radius: 8px;
 }
